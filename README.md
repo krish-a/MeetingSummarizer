@@ -11,10 +11,10 @@ This Python application takes an MP4 file of a Zoom meeting and automates the pr
 **Efficiency and Accuracy:** Offers a fast and accurate method for summarizing lengthy meeting discussions into key points, saving time for users.
 
 ## How to Use:
-Install the required Python libraries: AssemblyAI, Torch, NLTK, Transformers.
-Provide the MP4 file of the Zoom meeting as input to the application.
-Run the application to automatically transcribe the speech to text and generate summarized bullet points.
-Review and refine the generated summary as needed for your meeting notes or documentation.
+- Install the required Python libraries: AssemblyAI, Torch, NLTK, Transformers.
+- Provide the MP4 file of the Zoom meeting as input to the application.
+- Run the application to automatically transcribe the speech to text and generate summarized bullet points.
+- Review and refine the generated summary as needed for your meeting notes or documentation.
 
 ## Future Enhancements:
 Implement support for additional speech-to-text APIs to enhance accuracy and flexibility.
