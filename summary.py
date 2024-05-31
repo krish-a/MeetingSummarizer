@@ -31,7 +31,7 @@ def VideoToText( audioFile, key ):
   ponse = requests.get('https://api.assemblyai.com/v2/transcript/6o8z3hhyzi-bb30-4d36-9798-e1731812ab4b', headers=headers)
   return ponse.json()["text"]
 
-  def summary(audioFile, key):
+def summary(audioFile, key):
     text = ponse.json()["text"]
     stopWords = set(stopwords.words("english"))
     words = word_tokenize(text)
