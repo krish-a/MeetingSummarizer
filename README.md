@@ -3,8 +3,11 @@ This Python application takes an MP4 file of a Zoom meeting and automates the pr
 
 ## Features:
 **Automated Transcription:** Converts speech from Zoom meeting recordings into text format using AssemblyAI's speech-to-text API.
+
 **Text Summarization:** Utilizes Torch and Transformers for natural language processing to condense the transcribed text into bullet point summaries.
+
 **Customizable Output:** Provides flexibility to adjust summarization parameters and formatting options based on user preferences.
+
 **Efficiency and Accuracy:** Offers a fast and accurate method for summarizing lengthy meeting discussions into key points, saving time for users.
 
 ## How to Use:
